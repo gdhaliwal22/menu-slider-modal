@@ -14,7 +14,7 @@
     <title>My Landing Page</title>
   </head>
   <body>
-    <nav>
+    <nav id="navbar">
       <div class="logo">
         <img src="https://randomuser.me/api/portraits/men/76.jpg" alt="user" />
       </div>
@@ -25,83 +25,109 @@
         <li><a href="#">Contact Me</a></li>
       </ul>
     </nav>
+
     <header>
       <button id="toggle" class="toggle">
         <i class="fa fa-bars fa-2x"></i>
       </button>
+
       <h1>My Landing Page</h1>
+
       <p>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis
-        tempora similique delectus praesentium maiores, accusamus sequi veniam
-        sit assumenda molestiae culpa totam nulla debitis cupiditate doloremque
-        reprehenderit. Expedita, quas ipsam?
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur, amet!
       </p>
+
       <button class="cta-btn" id="open">Sign Up</button>
     </header>
+
     <div class="container">
       <h2>What is this landing page about?</h2>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel maxime
-        velit voluptatem voluptates error. Sequi similique aliquam reprehenderit
-        earum accusantium nemo ut, officiis quas maiores, assumenda dolore
-        cumque voluptatem iure.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia iure
+        accusamus ab consectetur eos provident ipsa est perferendis architecto.
+        Provident, quaerat asperiores. Quo esse minus repellat sapiente, impedit
+        obcaecati necessitatibus.
       </p>
-      <h2>Tell Me More</h2>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt
-        nesciunt cum beatae fuga ipsa hic dolorum exercitationem quisquam unde
-        amet.
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente optio
+        officia ipsa. Cum dignissimos possimus et non provident facilis saepe!
       </p>
+
+      <h2>Tell Me More</h2>
+
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat eaque
+        delectus explicabo qui reprehenderit? Aspernatur ad similique minima
+        accusamus maiores accusantium libero autem iusto reiciendis ullam
+        impedit esse quibusdam, deleniti laudantium rerum beatae, deserunt nemo
+        neque, obcaecati exercitationem sit. Earum.
+      </p>
+
       <h2>Benefits</h2>
       <ul>
         <li>Lifetime Access</li>
         <li>30 Day Money Back</li>
         <li>Tailored Customer Support</li>
       </ul>
+
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur
-        ipsa molestias, modi nemo animi natus alias voluptatum necessitatibus
-        praesentium recusandae vitae distinctio asperiores vero provident
-        consequuntur. Suscipit perferendis inventore voluptatibus accusantium
-        aspernatur maiores harum ut fugit eaque vel, aliquam consequuntur
-        exercitationem architecto, ullam cupiditate amet totam similique ipsum
-        voluptas aperiam distinctio unde explicabo quasi dolorum. Earum optio
-        magnam unde, eos veritatis, ipsum deleniti asperiores ipsa inventore
-        consectetur sed sapiente reiciendis.
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse quam
+        nostrum, fugiat, itaque natus officia laborum dolorum id accusantium
+        culpa architecto tenetur fuga? Consequatur provident rerum eius ratione
+        dolor officiis doloremque minima optio dignissimos doloribus odio
+        debitis vero cumque itaque excepturi a neque, expedita nulla earum
+        accusamus repellat adipisci veritatis quam. Ipsum fugiat iusto pariatur
+        consectetur quas libero dolor dolores dolorem, nostrum ducimus
+        doloremque placeat accusamus iste, culpa quaerat consequatur?
       </p>
     </div>
+
     <!-- Modal -->
     <div class="modal-container" id="modal">
       <div class="modal">
         <button class="close-btn" id="close">
           <i class="fa fa-times"></i>
         </button>
-        <div class="modal-header"><h3>Sign Up</h3></div>
+        <div class="modal-header">
+          <h3>Sign Up</h3>
+        </div>
         <div class="modal-content">
           <p>Register with us to get offers, support and more</p>
           <form class="modal-form">
             <div>
               <label for="name">Name</label>
-              <input type="text" id="name" placeholder="Enter Name" />
+              <input
+                type="text"
+                id="name"
+                placeholder="Enter Name"
+                class="form-input"
+              />
             </div>
             <div>
-              <label for="name">Email</label>
-              <input type="text" id="email" placeholder="Enter Email" />
+              <label for="email">Email</label>
+              <input
+                type="email"
+                id="email"
+                placeholder="Enter Email"
+                class="form-input"
+              />
             </div>
             <div>
-              <label for="name">Password</label>
+              <label for="password">Password</label>
               <input
                 type="password"
                 id="password"
                 placeholder="Enter Password"
+                class="form-input"
               />
             </div>
             <div>
-              <label for="name">Confirm Password</label>
+              <label for="password2">Confirm Password</label>
               <input
                 type="password"
                 id="password2"
                 placeholder="Confirm Password"
+                class="form-input"
               />
             </div>
             <input type="submit" value="Submit" class="submit-btn" />
@@ -109,6 +135,7 @@
         </div>
       </div>
     </div>
+
     <script src="script.js"></script>
   </body>
 </html>
